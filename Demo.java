@@ -15,7 +15,6 @@ class Demo{
 		vierPizza[1] = pizza2;
 		vierPizza[2] = pizza;
 		vierPizza[3] = new Pizza("Champignons");
-		System.out.println("vvvvvvvvv");
 		for(int x = 0; x < vierPizza.length; x++){
 			System.out.println(vierPizza[x].ingredient);
 			if(vierPizza[x].ingredient.equals("Kaas")) {
